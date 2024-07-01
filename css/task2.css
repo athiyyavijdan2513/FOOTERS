@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    color: white;
+
+}
+body{
+    width: 100%;
+
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+
+.footer .content{
+    background: #1a1a25;
+    max-width: 1425px;
+    margin: auto;
+    padding: 5px 70px 0px 40px;
+  
+}
+.navbar {
+     /* width: 100%; */
+     background: #4949bf;
+     height: 70px;
+     /* margin-top: -5px; */
+     padding: 7px 45px;
+     margin-top: -4px;
+     width: 100%;
+     margin-left: -40px;
+}
+.footer .content .top{
+    display: flex;
+    /* margin-left: -39px; */
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.content .top .text{
+    color: white;
+    font-size: larger;
+    
+}
+.content .top .text .para{
+    margin-top: 25px;
+ 
+}
+
+
+.content .top .media-icons{
+    display: flex;
+    font-size: 20px;
+    float: inline-end;
+    margin-top: -25px;
+   
+}
+
+.content .top .media-icons a{
+    height: 40px;
+    width: 40px;
+    /* background: green; */
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+  
+}
+
+.footer .content .link-boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .content .link-boxes .box{
+   
+    width: calc(100% / 5 - 10px);
+    color: white;
+    font-size: 21px;
+}
+.content .link-boxes .box .link_name{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 71px;
+    position: relative;
+}
+
+.content .link-boxes .box .link_name::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 70px;
+    background: #545495;
+}
+.content .link-boxes .box li{
+    margin: 6px 0;
+    list-style: none;
+
+}
+.content .link-boxes .box li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.4s ease;
+}
+.content .button-bar{
+    background: #30303b;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+    width: 108%;
+    margin-left: -40px;
+}
+.content .button-bar p{
+    color: white;
+    margin: 4px;
+    font-size: 20px;
+    padding: 7px;
+}
+
+
+
+
+

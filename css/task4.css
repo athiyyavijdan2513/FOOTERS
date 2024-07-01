@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    color: white;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}
+.first-row{
+    width: 100%;
+    height: 130px;
+}
+.second-row{
+    position: absolute;
+    margin: -60px  125px 0 125px;
+    width: 900px;
+    height: 135px;
+    background-image: linear-gradient(to right,blueviolet, blue,rgb(47, 110, 244),rgb(117, 182, 247));
+    z-index: 5;
+    border-radius: 7px;
+    display: flex;
+    padding: 0 30px;
+}
+.second-row .left-column{
+    width: 60%;
+    align-items: center;
+    align-content: center;
+}
+.left-column h2{
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+.left-column ul{
+    list-style-type: none;
+}
+.left-column ul li{
+    font-size: 11px;
+    font-weight: 350;
+    letter-spacing: 1px;
+    display: inline-flex;
+}
+.left-column .icon span{
+    font-size: 16px;
+    padding:0 3px 0 10px;
+} 
+.second-row .right-column{
+    width: 40%;
+    text-align: center;
+    align-items:center;
+    align-content: center;
+    padding-left: 195px;
+}
+.right-column button{
+    display: flex;
+    font-size: 11px;
+    width: 135px;
+    height: 35px;
+    border-radius:20px;
+    align-items: center;
+    align-content: center;
+    padding-left: 13px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    display: inline-flex;
+}
+.right-column .btn1{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 7px;
+}
+.right-column .btn2{
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+}
+.right-column .btn1 .icon{
+    padding-left: 25px;
+}
+.right-column .btn2 .icon{
+    padding-left: 15px;
+}
+.third-row{
+    width: auto;
+    height: auto;
+    background-color: rgb(19, 2, 58);
+    padding:165px 0 0 125px;
+}
+.third-row .top-row{
+    width: 100%;
+    height: auto;
+}
+.top-row .logo{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    padding-bottom: 30px;
+}
+.logo h3{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 7px 0 0 5px;
+}
+.top-row .content{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.content .column{
+    height: auto;
+    width: 15%;
+}
+.column h6{
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    color: rgb(195, 195, 199);
+    padding-bottom: 13px;
+}
+.column ul{
+    list-style-type: none;
+}
+.column ul li{
+    font-size: 12.5px;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: rgb(248, 246, 246);
+    letter-spacing: 0.5px;
+}
+.fourth-row{
+    width: 100;
+    height: 35px;
+    background-color: rgb(19, 2, 58);
+}
+.line{
+    width: 100%;
+    height: 0.1px;
+    background-color: rgb(173, 173, 178);
+}
+.fourth-row .row{
+    display: flex;
+}
+.fourth-row .left-side{
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    padding-left: 125px;
+}
+.left-side ul{
+    list-style-type: none;
+}
+.left-side ul li{
+    font-size: 12px;
+    display: inline;
+    padding: 5px 10px 0 0;
+    color: rgb(248, 246, 246);
+}
+.fourth-row .right-side{
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 5px 0 0 180px;
+}
+.right-side button{
+    width: 165px;
+    height: 20px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(119, 231, 119);
+    color: rgb(119, 231, 119);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

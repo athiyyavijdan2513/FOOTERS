@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    line-height: 1.5;
+    width: 100%;
+    background: black;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #131333;;
+    padding-top: 70px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer-col{
+    width: 33.333%;
+    text-align: left;
+    padding-left: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding: 8px;
+}
+.footer-col .email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+    color:#bbbbbb ;
+}
+  .container .row .btn{
+    font-size: 18px;
+    font-weight: lighter;
+    background: #114477;
+    width: 225px;
+    height: 65px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    border: none;
+
+
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background: white;
+}
+.content{
+    height: 100px;
+    margin: 10px;
+    padding-top: 20px;
+
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.row2 .col-icons{
+    width: 40%;
+    height:inherit;
+    align-items: center;
+    align-content: center;
+    padding-left: 3%;
+    
+}
+.row2 .col-icons ul{
+    display: flex;  
+
+}
+.row2 .col-icons ul li{
+    padding: 20px;
+
+    
+}
+
+
+
+.col-links{
+    width: 60%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    margin-left: -67px;
+    align-items: center;
+    align-content: center;
+}
+.col-links ul{
+    float: right;
+    /* margin: 40px 500px 0px 0px; */
+}
+.col-links ul li{
+    display: inline-block;
+    /* line-height: 80px; */
+    margin: 0 15px;
+}
+.col-links ul li a{
+    color: #bbbbbb;
+    position: relative;
+    font-size: 23px;
+    text-transform: capitalize;
+    text-decoration:none;
+    border-bottom: 2px solid white;
+    
+
+}
